@@ -1,0 +1,50 @@
+project:
+  type: book
+
+book:
+  title: "Principle of Statistics"
+  author: "Che Cheng"
+  date: last-modified
+  search: true
+  repo-url: https://github.com/kiki830621/principle-of-statistics
+  repo-actions: 
+    - issue
+    - source
+  downloads: 
+    - pdf
+  sharing: 
+    - twitter
+    - facebook
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - probability-and-distribution.qmd
+    - population-and-sample.qmd
+    - descriptive-statistics.qmd
+    - inference-statistics.qmd
+    - references.qmd
+  # appendices: 
+  #   - XX.qmd
+  page-navigation: true
+  page-footer: "Copyright 2022, Che Cheng"
+    
+bibliography: references.bib
+
+csl: apa.csl
+
+format:
+  html:
+    theme: 
+      light: Flatly
+      dark: Darkly
+    css: styles.css
+    code-copy: true
+    code-link: true
+    code-tools: true
+  # pdf:
+  #   documentclass: scrreprt
+
+editor: visual
+
+comments: 
+  hypothesis: true
