@@ -124,7 +124,7 @@ Chapter12 非參數化迴歸模型
 
 Book 2
 
-### Chap5 
+### Chap5
 
 Kernal regression
 
