@@ -1,1 +1,3 @@
 # Principle-of-statistics
+
+Example
