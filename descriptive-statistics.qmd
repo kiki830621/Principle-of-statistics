@@ -1,0 +1,3 @@
+# 描述統計 (Descriptive Statistics) {#descr-stat}
+
+統計一般而言可以區分為描述統計 (descriptive statistics) 與推論統計 (inferential statistics)。本章節會介紹 ...
