@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "R_Data Frames.html",
+    "href": "R_Data Frames.html",
+    "title": "6  R_Data Frames",
+    "section": "",
+    "text": "在R語言中，資料集可以被儲存在Data Frame當中，能夠靈活的處理Data Frame是R語言當中的一大特色也是一大強項。一般而言，資料科學家會對Data Frame做不同的資料處理（data manipulation），本章節介紹不同的資料處理過程。而在這之前，會先介紹如何匯入、匯出Data Frame，以及介紹Data Frame的資料型態。"
+  },
+  {
+    "objectID": "R_Data Frames.html#匯入data-frame",
+    "href": "R_Data Frames.html#匯入data-frame",
+    "title": "6  R_Data Frames",
+    "section": "6.1 匯入Data Frame",
+    "text": "6.1 匯入Data Frame\n\n6.1.1 創建 Data Frame (Create Data Frame)\n** data.frame (欄名稱=值,…,欄名稱=值)\n\nData_Frame <- data.frame (\n  Language = c(\"R\", \"SAS\", \"SPSS\", \"Python\", \"SQL\", \"JASP\"),\n  Release = c(1993,1972,1968,1991,1986,2013),\n  Free = c(TRUE, FALSE, FALSE, TRUE, TRUE,TRUE)\n)\n\n\nData_Frame\n\n  Language Release  Free\n1        R    1993  TRUE\n2      SAS    1972 FALSE\n3     SPSS    1968 FALSE\n4   Python    1991  TRUE\n5      SQL    1986  TRUE\n6     JASP    2013  TRUE"
+  }
+]

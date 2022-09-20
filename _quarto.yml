@@ -22,6 +22,7 @@ book:
     - population-and-sample.qmd
     - descriptive-statistics.qmd
     - inference-statistics.qmd
+    - R_Data Frames.qmd
     - references.qmd
   # appendices: 
   #   - XX.qmd
