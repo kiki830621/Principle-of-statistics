@@ -24,7 +24,6 @@ book:
     - inference-statistics.qmd
     - R_Data Frames.qmd
     - references.qmd
-    - R_Data Frames.qmd
   # appendices: 
   #   - XX.qmd
   page-navigation: true
