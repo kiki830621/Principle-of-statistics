@@ -1,5 +1,138 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Principle of Statistics",
+    "section": "",
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming."
+  },
+  {
+    "objectID": "introduction.html#如何閱讀此書",
+    "href": "introduction.html#如何閱讀此書",
+    "title": "1  Introduction",
+    "section": "1.1 如何閱讀此書",
+    "text": "1.1 如何閱讀此書\n\n1.1.1 章節規劃\n\n\n1.1.2 名詞解釋\n名詞解釋的題目建議是寫「定義＋功能or例子」，一般而言，定義是以解釋清楚為原則，故字數可能會較少；而功能、例子可以闡述該概念，故會寫得較多。不一定每一題都需要寫到功能或例子，如果是數學定理的描述，可能只要把該定理寫出來即可。\n\n定義 Definition\n\n定義的部分以精確定義該概念為主，如果要解釋清楚這個專有名詞需要引用某一個的概念，則可以順便寫那個概念的定義；如果是較無關的概念，寫上去不僅不會加分反而會扣分。定義不是寫越多越好，而是寫得越精確、解釋的越清晰越好！\n\n功能\n\n有一些名詞解釋會問一些統計方法，例如「因素分析」的解釋。在解釋因素分析的時候，可以提到該方法具有什麼功能，面對怎樣的資料可以回答怎樣的問題。\n\n例子 Example\n\n例子有兩個功能：增加字數與讓回答更具體。通常名詞解釋都佔有一定的配分，如果字數太少了可能會有被扣分的疑慮，故建議自己舉例來增加字數。由於例子的部分也可以用來鑑別每一個人的答案不同，請不要背標準答案上的例子，例子最好可以用自己想到的例子。另外，有具體的例子也可以讓回答更具體，讓改考卷的人更確定你有瞭解這個概念。請盡量不要照抄標準答案的例子！\n\n\n\n\n1.1.3 影片講解\n\n\n\n\nFigure 1.1: Elephant\n\n\n\n\n\n\n\n\nKnuth, D. E. (1984). Literate programming. Comput. J., 27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97"
+  },
+  {
+    "objectID": "probability-and-distribution.html",
+    "href": "probability-and-distribution.html",
+    "title": "2  機率與分配 (Probability and Distribution)",
+    "section": "",
+    "text": "這個章節儘管考的較分散，但是後面的章節需要仰賴這個章節的知識，例如：在推論統計的章節需要「查表」，如何查表就涉及對於分配的瞭解。這個章節會先教分配的期望值（expected value）、平均數（mean）與標準差（standard deviation），並且介紹分配（distribution）與參數（parameter）的概念，然而由於不涉及抽樣（sampling），因此不涉及估計（estimation）、推論統計等概念，不會涉及任何檢定的程序。剛好是一個機會區分清楚「卡方分配」、「卡方檢定」以及「t檢定」、「t分配」之概念。"
+  },
+  {
+    "objectID": "probability-and-distribution.html#sec-prob-dist-goal",
+    "href": "probability-and-distribution.html#sec-prob-dist-goal",
+    "title": "2  機率與分配 (Probability and Distribution)",
+    "section": "2.1 學習目標",
+    "text": "2.1 學習目標\n\n介紹常見的分配\n\n間斷分配：二項分配\n連續分配：常態分配、t分配、卡方分配、F分配\n\n查表：Z表、t表、卡方表、F表\n介紹分配的特性\n\n各級動差：平均數、變異數、偏態、峰度\n集中趨勢指標：平均數、中位數、眾數\n兩變項的關係：相關係數、共變數\n\n分配的轉換與四則運算\n\n線性轉換前後動差的關係\n隨機變數四則運算後之動差"
+  },
+  {
+    "objectID": "probability-and-distribution.html#機率-probability",
+    "href": "probability-and-distribution.html#機率-probability",
+    "title": "2  機率與分配 (Probability and Distribution)",
+    "section": "2.2 機率 (Probability)",
+    "text": "2.2 機率 (Probability)"
+  },
+  {
+    "objectID": "probability-and-distribution.html#分配-distributions",
+    "href": "probability-and-distribution.html#分配-distributions",
+    "title": "2  機率與分配 (Probability and Distribution)",
+    "section": "2.3 分配 (Distributions)",
+    "text": "2.3 分配 (Distributions)"
+  },
+  {
+    "objectID": "population-and-sample.html",
+    "href": "population-and-sample.html",
+    "title": "3  母群與樣本 (Population and Sample)",
+    "section": "",
+    "text": "這一章節會先介紹樣本 (sample) 與母群 (population) 的分別，並且介紹統計學當中描述統計 (descriptive statistics) 與推論統計 (inferential statistics) 的概念。在描述統計上會介紹集中量數與分散量數；推論統計一般而言包含假設檢定 (hypothesis testing) 與信賴區間 (confidence interval) 。在這個主題中，只探討單一樣本 (one sample) 中平均數 (mean) 的推論統計──亦即，如何藉由樣本平均數 (sample mean) 推論母群平均數 (population mean) 。"
+  },
+  {
+    "objectID": "population-and-sample.html#sec-popu-samp-goal",
+    "href": "population-and-sample.html#sec-popu-samp-goal",
+    "title": "3  母群與樣本 (Population and Sample)",
+    "section": "3.1 學習目標",
+    "text": "3.1 學習目標\n\n母群與樣本\n機率抽樣：簡單隨機抽樣、分層隨機抽樣、聚落隨機抽樣、系統抽樣\n非機率抽樣"
+  },
+  {
+    "objectID": "population-and-sample.html#sec-popu-samp",
+    "href": "population-and-sample.html#sec-popu-samp",
+    "title": "3  母群與樣本 (Population and Sample)",
+    "section": "3.2 母群與樣本",
+    "text": "3.2 母群與樣本\n\nDefinition 3.1 (基本定義) \n\n量測 (measurement) 是將物體或事件賦予數字的過程 (Stevens, 1946) 。\n變數、變項 (variable) 代表一個會隨著不同有機體、情境或環境而有所不同的特徵或現象。\n常數 (constant) 是不會改變的數。\n隨機變數 (random variable) 是一個從樣本空間S到實數的函數。(參考主題一定義3)\n\n\n\nDefinition 3.2 (資料集 data set) 若記錄變項在不同的個體 (individual) 或實驗單位 (experimental unit) ，會形成資料集 (data set)。\n\n單變量資料集 (univariate data set) ：單一變項在不同個體的不同觀察值 (observation) 形成的資料集。\n雙變量資料集 (bivariate data set) ：不同個體在兩變項上的成對資料形成的資料集。\n多變量資料集 (multivariate data set) ：不同個體在多變項上的資料形成的資料集，雙變量為其特例。\n\n\n\nDefinition 3.3 (母群與樣本) \n\n母群 (population) ：研究者關心的所有個體或元素所形成的群體，樣本是抽樣自母群。\n普查 (census) ：蒐集母群當中所有個體的資料。\n抽樣 (sampling) ：從母群當中抽出樣本的過程。\n樣本 (sample) ：由母群的子集合形成的群體。\n代表性樣本 (representative sample) ：在統計特性上與母群類似的樣本。\n偏誤樣本 (biased sample) ：非代表性樣本。\n母群當中的個體數目稱為母群數 (population size, N) 。\n樣本當中的個體數目稱作樣本數 (sample size, n) 。\n\n\n\n\n\nFigure 3.1: 母群、樣本、抽樣以及推論的示意圖\n\n\n\nDefinition 3.4 (抽樣方法 sampling methods) 機率抽樣 (probability sampling) 或隨機抽樣 (random sampling) 代表抽樣方法涉及機率的計算；相對來說，非機率抽樣 (nonprobability sampling) 或非隨機抽樣 (nonrandom sampling) 不涉及機率的計算。\n\n常見隨機抽樣為：\n\n簡單隨機抽樣 (simple random sampling)\n分層隨機抽樣 (stratified random sampling)\n\n定比例分層隨機抽樣 (proportional stratified sampling)\n非定比例分層隨機抽樣 (disproportional stratified sampling)\n\n聚落隨機抽樣 (cluster random sampling)\n系統抽樣 (systemic sampling)\n\n上述方法除了非定比例分層隨機抽樣以外都是等機率選擇法 (equal probability of selection method, EPSEM) ，代表抽到每一個個體的機率皆相同。\n常見的非機率抽樣為：\n\n便利抽樣 (convenience sampling)\n配額抽樣 (quota sampling)\n立意抽樣 (purposive sampling)\n滾雪球抽樣 (snowball sampling)\n\n\n若抽到每一個個體的機率不相同，亦即，抽樣法非 EPSEM，則抽到的樣本為偏誤樣本。\n\n\n\n\nWhat Are The Types Of Sampling Techniques In Statistics - Random, Stratified, Cluster, Systematic"
+  },
+  {
+    "objectID": "population-and-sample.html#參考資料",
+    "href": "population-and-sample.html#參考資料",
+    "title": "3  母群與樣本 (Population and Sample)",
+    "section": "參考資料",
+    "text": "參考資料\n\n\n\n\n\n\nStevens, S. S. (1946). On the Theory of Scales of Measurement. Science, 103(2684), 677–680. https://doi.org/10.1126/science.103.2684.677"
+  },
+  {
+    "objectID": "descriptive-statistics.html",
+    "href": "descriptive-statistics.html",
+    "title": "4  描述統計 (Descriptive Statistics)",
+    "section": "",
+    "text": "統計一般而言可以區分為描述統計 (descriptive statistics) 與推論統計 (inferential statistics)。本章節會介紹 …"
+  },
+  {
+    "objectID": "inference-statistics.html",
+    "href": "inference-statistics.html",
+    "title": "5  推論統計 (Inference Statistics)",
+    "section": "",
+    "text": "推論統計欲由資料來推論母群分配的特性，通常是母群的參數。一般而言推論統計可以分為兩種取向：估計 (estimation) 參數或假設檢定 (hypothesis testing)，當中，估計又可分為點估計（point estimation）與區間估計(interval estimation)，而區間估計通常採用信賴區間（confidence interval）。總而言之，推論統計通常有以下三種方法："
+  },
+  {
+    "objectID": "inference-statistics.html#sec-infer-stat-goal",
+    "href": "inference-statistics.html#sec-infer-stat-goal",
+    "title": "5  推論統計 (Inference Statistics)",
+    "section": "5.1 學習目標",
+    "text": "5.1 學習目標\n\n基本概念：統計量與抽樣分配\n推論統計介紹：點估計、假設檢定、信賴區間（一種區間估計）\n\n方法一：點估計\n\n樣本平均數的特性：中央極限定理\n樣本變異數的特性\n\n方法二：假設檢定\n\n單一樣本平均數的假設檢定：Z、t檢定\n\n方法三：信賴區間\n\n單一樣本平均數的信賴區間：Z、t區間"
+  },
+  {
+    "objectID": "inference-statistics.html#section",
+    "href": "inference-statistics.html#section",
+    "title": "5  推論統計 (Inference Statistics)",
+    "section": "5.2 ",
+    "text": "5.2 \n\nDefinition 5.1 (有限/無限母群 finite/infinite population) \n\n如果母群數有限，則此母群為有限母群（finite population）。\n如果母群數無限，則此母群為無限母群（infinite population）。\n\n\n註解5.1. 在心理學當中，儘管研究者關心的母群常為有限母群，但由於有限母群的統計特性較為複雜，故通常假設為無限母群之情況。有限母群的情況只會探討不同抽樣方法的特性與結果。  \n定義6. ***（無限母群模型） (i) 若 相互獨立，且分配都來自於F，則稱 為「來自母群F(x)之隨機樣本（random sample）」或「來自F(x)之獨立同分配（independent identically distributed, i.i.d.）」。數學上記作 。 (ii) 為一單變量資料集，其中n為樣本數、 為第i個觀察值。 (iii) 參數（parameter）可以決定母群分配F。參數通常以 或其他羅馬字母表示。\n定義7. ***（統計量） (i) T為一個函數， 為統計量（statistic）。亦即，統計量為資料的函數（計算的結果）。 (ii) Y為統計量，Y的分配被稱作Y的抽樣分配（sampling distribution）， (iii) 抽樣分配的標準差被稱作標準誤（standard error）\n模擬8.*** (繪製抽樣分配) 為統計量（statistic），若要繪製Y的分配，則可以依照如下步驟： Step1. 隨機從母群當中取後放回（with replacement）抽取n個樣本點，計算出Y。 Step2. 重複上述流程，並將每一次得到的Y會製成直方圖，若抽取次數k趨近於無限大，則繪製出來的直方圖會趨近於Y的分配。\n註解8.1. 儘管在數學定義上，統計量Y的抽樣分配為「Y的分配」。但是在心統與教統上為了要解釋分配是什麼，會以模擬8的方法來作為「Y的分配」的定義。在回答名詞解釋的題目的時候，只要遇到統計量的分配，都可以用此方式說明分配的概念。在本課程當中此後並不多對分配多作如此解釋。"
+  },
+  {
+    "objectID": "inference-statistics.html#sec-sing-samp",
+    "href": "inference-statistics.html#sec-sing-samp",
+    "title": "5  推論統計 (Inference Statistics)",
+    "section": "5.3 樣本平均數的推論統計（單一樣本）",
+    "text": "5.3 樣本平均數的推論統計（單一樣本）"
+  },
+  {
+    "objectID": "inference-statistics.html#推論統計方法一點估計",
+    "href": "inference-statistics.html#推論統計方法一點估計",
+    "title": "5  推論統計 (Inference Statistics)",
+    "section": "5.4 推論統計方法一：點估計",
+    "text": "5.4 推論統計方法一：點估計"
+  },
+  {
+    "objectID": "inference-statistics.html#推論統計方法二區間估計",
+    "href": "inference-statistics.html#推論統計方法二區間估計",
+    "title": "5  推論統計 (Inference Statistics)",
+    "section": "5.5 推論統計方法二：區間估計",
+    "text": "5.5 推論統計方法二：區間估計"
+  },
+  {
+    "objectID": "inference-statistics.html#推論統計方法三假設檢定",
+    "href": "inference-statistics.html#推論統計方法三假設檢定",
+    "title": "5  推論統計 (Inference Statistics)",
+    "section": "5.6 推論統計方法三：假設檢定",
+    "text": "5.6 推論統計方法三：假設檢定"
+  },
+  {
     "objectID": "R_Data Frames.html",
     "href": "R_Data Frames.html",
     "title": "6  R_Data Frames",
@@ -11,6 +144,6 @@
     "href": "R_Data Frames.html#匯入data-frame",
     "title": "6  R_Data Frames",
     "section": "6.1 匯入Data Frame",
-    "text": "6.1 匯入Data Frame\n\n6.1.1 創建 Data Frame (Create Data Frame)\n** data.frame (欄名稱=值,…,欄名稱=值)\n\nData_Frame <- data.frame (\n  Language = c(\"R\", \"SAS\", \"SPSS\", \"Python\", \"SQL\", \"JASP\"),\n  Release = c(1993,1972,1968,1991,1986,2013),\n  Free = c(TRUE, FALSE, FALSE, TRUE, TRUE,TRUE)\n)\n\n\nData_Frame\n\n  Language Release  Free\n1        R    1993  TRUE\n2      SAS    1972 FALSE\n3     SPSS    1968 FALSE\n4   Python    1991  TRUE\n5      SQL    1986  TRUE\n6     JASP    2013  TRUE"
+    "text": "6.1 匯入Data Frame\n\n6.1.1 創建 Data Frame (Create Data Frame)\n\ndata.frame (欄名稱=值,…,欄名稱=值)\n\n\nData_Frame <- data.frame (\n  Language = c(\"R\", \"SAS\", \"SPSS\", \"Python\", \"SQL\", \"JASP\"),\n  Release = c(1993,1972,1968,1991,1986,2013),\n  Free = c(TRUE, FALSE, FALSE, TRUE, TRUE,TRUE)\n)\n\n\nData_Frame\n\n  Language Release  Free\n1        R    1993  TRUE\n2      SAS    1972 FALSE\n3     SPSS    1968 FALSE\n4   Python    1991  TRUE\n5      SQL    1986  TRUE\n6     JASP    2013  TRUE"
   }
 ]
