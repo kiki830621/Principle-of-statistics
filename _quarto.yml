@@ -23,6 +23,7 @@ book:
     - descriptive-statistics.qmd
     - inference-statistics.qmd
     - references.qmd
+    - R_Data Frames.qmd
   # appendices: 
   #   - XX.qmd
   page-navigation: true

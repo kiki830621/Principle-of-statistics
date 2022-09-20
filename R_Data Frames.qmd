@@ -1,0 +1,24 @@
+# R_Data Frames
+
+在R語言中，資料集可以被儲存在Data Frame當中，能夠靈活的處理Data Frame是R語言當中的一大特色也是一大強項。一般而言，資料科學家會對Data Frame做不同的資料處理（data manipulation），本章節介紹不同的資料處理過程。而在這之前，會先介紹如何匯入、匯出Data Frame，以及介紹Data Frame的資料型態。
+
+
+## 匯入Data Frame
+
+### 創建 Data Frame (Create Data Frame)
+
+* data.frame (欄名稱=值,...,欄名稱=值)
+
+```{r}
+
+
+Data_Frame <- data.frame (
+  Language = c("R", "SAS", "SPSS", "Python", "SQL", "JASP"),
+  Release = c(1993,1972,1968,1991,1986,2013),
+  Free = c(TRUE, FALSE, FALSE, TRUE, TRUE,TRUE)
+)
+
+
+Data_Frame
+```
+
